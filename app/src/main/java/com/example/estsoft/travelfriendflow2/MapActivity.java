@@ -42,6 +42,8 @@ public class MapActivity extends AppCompatActivity {
         ImageView map = (ImageView)findViewById(R.id.map);
         Log.i("Log", "count : " + count);
 
+
+
         map.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
